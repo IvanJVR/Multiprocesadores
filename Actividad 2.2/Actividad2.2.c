@@ -24,10 +24,10 @@ void mirrorBlurring(pixel **original, FILE *result, int width, int height, int p
 
 int main(int argc, char const *argv[]){
     FILE *image, *imagesResult[N];
-    image = fopen("sample2.bmp","rb");
+    image = fopen("sample4.bmp","rb");
     for(int i = 0; i < N; i++){
         char filename[20];
-        sprintf(filename, "%d-image.bmp", i + 1);
+        sprintf(filename, "%d-imageV4.bmp", i + 1);
         imagesResult[i] = fopen(filename,"wb");
     }
 
