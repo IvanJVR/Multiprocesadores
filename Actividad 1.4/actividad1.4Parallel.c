@@ -7,7 +7,7 @@ gcc -foponmp nombre.c
 
 static long num_pasos = 1000000000;
 double paso;
-#define NUM_THREADS 500
+#define NUM_THREADS 150
 void main(){
 	int i, nthreads;
 	double pi, sum[NUM_THREADS], t1, t2, tiempo;
