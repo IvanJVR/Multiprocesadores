@@ -20,10 +20,10 @@ void writeImage(pixel **pixels, int width, int height, FILE *image, int i);
 
 int main(int argc, char const *argv[]){
     FILE *image, *gs, *horizontal, *final;
-    image = fopen("sample2.bmp","rb");
-    gs = fopen("gsV1.bmp", "wb");
-    horizontal = fopen("horizontalV1.bmp", "wb"); 
-    final = fopen("rpV1.bmp","wb");
+    image = fopen("sample4.bmp","rb");
+    gs = fopen("gsV2.bmp", "wb");
+    horizontal = fopen("horizontalV2.bmp", "wb"); 
+    final = fopen("rpV2.bmp","wb");
 
     double t1, t2, tiempo;
 
